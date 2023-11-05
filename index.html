@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age-Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Bebas+Neue&family=Gabarito:wght@500&family=Josefin+Sans&family=Kanit:wght@600&family=Kaushan+Script&family=Kenia&family=Nosifer&family=Nunito+Sans:ital,wght@1,300&family=Orelega+One&family=Outfit&family=Pacifico&family=Poppins:ital,wght@1,500&family=Rajdhani:wght@600&family=Roboto&family=Roboto+Mono:ital,wght@0,100;0,700;1,200;1,600;1,700&family=Roboto+Slab:wght@900&family=Rubik+Iso&family=Satisfy&family=Tapestry&family=Tilt+Neon&family=Updock&family=Vollkorn:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- <form action="#" > -->
+                        <div class="user-input" >
+                        <div class="input-day">
+                            <label>Day</label>
+                            <input type="number" name="number" id="day">
+                            <div >
+                                <span id="input-errorday" ></span>
+                            </div>
+                        </div>
+                        <div class="input-month">
+                            <label>month</label>
+                            <input type="number" name="number" id="month">
+                            <div>
+                                <span id="input-errormonth" ></span>
+                            </div>
+                        </div>
+                        <div class="input-year">
+                            <label>year</label>
+                            <input type="number" name="year" id="year">
+                            <div> 
+                                <span id="input-erroryear" ></span>
+                            </div>
+                        </div>
+
+                    
+                            <button class="submit"><ion-icon name="arrow-down-outline"></ion-icon></button>
+                       
+                        </div>
+                    <!-- </form> -->
+
+                    
+             <!-- User-Output -->
+
+                    <div class="user-output">
+                        <div class="output-year">
+                            <span id="year-out">--</span><h1>years</h1>
+                        </div>
+                        <div class="output-month">
+                            <span id="month-out">--</span><h1>months</h1>
+                        </div>
+                        <div class="output-day">
+                            <span id="day-out">--</span><h1>days</h1>
+                        </div>
+                    </div>
+    </div>
+
+
+   
+        <script src="script.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
